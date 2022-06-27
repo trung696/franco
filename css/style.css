@@ -1,0 +1,196 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(../../font/Poppins/Poppins-Regular.ttf);
+  font-size: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(../font/Poppins/Poppins-Medium.ttf);
+  font-size: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(../font/Poppins/Poppins-SemiBold.ttf);
+  font-size: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../font/Montserrat/static/Montserrat-Bold.ttf);
+  font-size: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../font/Montserrat/static/Montserrat-Medium.ttf);
+  font-size: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../font/Montserrat/static/Montserrat-Regular.ttf);
+  font-size: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../font/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+  font-size: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../font/Open_Sans/static/OpenSans/OpenSans-Medium.ttf);
+  font-size: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../font/Open_Sans/static/OpenSans/OpenSans-Bold.ttf);
+  font-size: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pacifico';
+  src: url(../font/Pacifico/Pacifico-Regular.ttf);
+  font-size: 400;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #000;
+  text-decoration: black;
+}
+a:hover {
+  color: #000;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.container-fluid {
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: normal;
+}
+.header-top {
+  background-color: #222;
+  font-size: 12px;
+  font-weight: 500;
+  color: #bababa;
+}
+.header-top-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 46px;
+}
+.header .web-info {
+  display: flex;
+  margin: 0 30px;
+}
+.header .web-info .info-icon {
+  margin-right: 5px;
+}
+.header .web-info-action {
+  display: flex;
+}
+.header .web-info-action .web-info-button {
+  display: flex;
+  margin: 0 15px;
+}
+.header .web-info-action .web-info-button .info-icon {
+  margin-right: 5px;
+}
+.header-bottom .nav {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-bottom: 1px solid #dddddd;
+}
+.header-bottom .nav-logo {
+  display: flex;
+  text-align: center;
+}
+.header-bottom .nav-logo a {
+  display: flex;
+  text-align: center;
+  height: 100%;
+}
+.header-bottom .nav-logo a img {
+  display: flex;
+  margin: auto 0;
+}
+.header-bottom .nav-menu {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+}
+.header-bottom .nav-menu .nav-item {
+  display: inline-block;
+  margin: 0 27.5px;
+}
+.header-bottom .nav-menu .nav-item a {
+  text-transform: uppercase;
+}
+.header-bottom .nav-menu .nav-item a.homepage {
+  color: #8262b5;
+}
+.header-bottom .nav-menu nav {
+  display: flex;
+}
+.header-bottom .nav-icon {
+  display: flex;
+}
+.header-bottom .nav-icon a {
+  margin: 0 15px;
+  line-height: 80px;
+}
+.banner-left {
+  width: 58.3333%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+.banner-left .banner-title {
+  font-family: "Pacifico";
+  font-size: 30px;
+  font-weight: 400;
+}
+.banner-right {
+  width: 41.66667%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.banner-right-item {
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map */
