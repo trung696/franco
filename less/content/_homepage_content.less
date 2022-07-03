@@ -1,19 +1,39 @@
-.banner{
-    &-left{
-        .col(58.3333%);
-        position: relative;
-        .banner-title{
-font-family: "Pacifico";
-        font-size: 30px;
-        font-weight: 400
-        }
-        
+.banner {
+  .banner-button {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &-left {
+    .col(58.3333%);
+    position: relative;
+    .banner-title {
+      font-family: "Pacifico";
+      font-size: 30px;
+      font-weight: 400;
     }
-    &-right{
-        
-        .col(41.6667%);
-        &-item{
-            position: relative;
-        }
+    img {
+      width: 100%;
     }
+  }
+  &-right {
+    .col(41.6667%);
+    &-item {
+      position: relative;
+      .banner-title {
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 400;
+        color: @banner-title;
+      }
+      .banner-discription {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 600;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
