@@ -178,6 +178,12 @@ body {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
+  background-color: #8262b5;
+  width: 106px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
 }
 .banner-left {
   width: 58.3333%;
@@ -214,5 +220,6 @@ body {
 }
 .banner-right-item img {
   width: 100%;
+  left: 1000px;
 }
 /*# sourceMappingURL=style.css.map */
