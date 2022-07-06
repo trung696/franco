@@ -151,7 +151,7 @@ body {
 .header-bottom .nav-menu {
   font-family: "Montserrat";
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   display: flex;
 }
 .header-bottom .nav-menu .nav-item {
@@ -160,6 +160,8 @@ body {
 }
 .header-bottom .nav-menu .nav-item a {
   text-transform: uppercase;
+  font-weight: 700;
+  -webkit-text-stroke: 1px;
 }
 .header-bottom .nav-menu .nav-item a.homepage {
   color: #8262b5;
@@ -169,10 +171,20 @@ body {
 }
 .header-bottom .nav-icon {
   display: flex;
+  transform: scale(1.5);
 }
 .header-bottom .nav-icon a {
   margin: 0 15px;
   line-height: 80px;
+}
+.page-main {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  position: relative;
+  margin-top: 31px;
+  margin-left: 98px;
 }
 .banner .banner-button {
   font-family: "Montserrat";
@@ -186,7 +198,7 @@ body {
   color: #fff;
 }
 .banner-left {
-  width: 58.3333%;
+  width: 58.333%;
   padding: 0 15px;
   box-sizing: border-box;
   position: relative;
@@ -194,13 +206,22 @@ body {
 .banner-left .banner-title {
   font-family: "Pacifico";
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
+}
+.banner-left .banner-info {
+  position: absolute;
+  top: 46%;
+  left: 43%;
+}
+.banner-left .banner-info .banner-button {
+  position: absolute;
+  left: 66%;
 }
 .banner-left img {
   width: 100%;
 }
 .banner-right {
-  width: 41.6667%;
+  width: 41.667%;
   padding: 0 15px;
   box-sizing: border-box;
 }
@@ -210,16 +231,55 @@ body {
 .banner-right-item .banner-title {
   font-family: "Montserrat";
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: #616161;
+  text-transform: uppercase;
 }
 .banner-right-item .banner-discription {
   font-family: "Montserrat";
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 900;
+  -webkit-text-stroke: 1.5px black;
+  text-transform: uppercase;
 }
 .banner-right-item img {
   width: 100%;
-  left: 1000px;
+}
+.banner-right-item #picture-right-1 {
+  background-image: url("img/Ads 2.png");
+  background-color: #cad7df;
+  width: 80%;
+  height: 200px;
+  margin-bottom: 30px;
+}
+.banner-right-item #picture-right-1 img {
+  width: 80%;
+  height: 200px;
+  object-fit: none;
+  object-position: 100% 1;
+}
+.banner-right-item #info-1 {
+  position: absolute;
+}
+.banner-right-item #info-1 .border-around {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 128px;
+  position: relative;
+  bottom: 202px;
+  left: 29px;
+  margin: 0 auto;
+}
+.banner-right-item #info-1 .banner-content {
+  position: absolute;
+  top: 47px;
+  left: 45px;
+}
+.banner-right-item #picture-right-2 img {
+  width: 80%;
+  height: 256px;
+  scale: 2;
+  object-fit: none;
+  object-position: 5% 5%;
 }
 /*# sourceMappingURL=style.css.map */
