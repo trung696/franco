@@ -6,7 +6,7 @@
 .banner {
   position: relative;
   margin-top: 31px;
-  margin-left: 98px;
+  margin-left: 130.5px;
   .banner-button {
     font-family: "Montserrat";
     font-size: 14px;
@@ -19,7 +19,7 @@
     color: @text-white-color;
   }
   &-left {
-    .col(58.333%);
+    .col(58.3333%);
     position: relative;
     .banner-title {
       font-family: "Pacifico";
@@ -28,8 +28,8 @@
     }
     .banner-info{
       position: absolute;
-      top: 46%;
-      left: 43%;
+      top: 270px;
+      left: 300px;
       .banner-button{
         position: absolute;
         left: 66%;
@@ -40,7 +40,7 @@
     }
   }
   &-right {
-    .col(41.667%);
+    .col(41.6667%);
     &-item {
       position: relative;
       .banner-title {
@@ -54,7 +54,7 @@
         font-family: "Montserrat";
         font-size: 20px;
         font-weight: 900;
-        -webkit-text-stroke: 1.5px @stroke;
+        -webkit-text-stroke: 1px @stroke;
         text-transform: uppercase;
       }
       img {
@@ -63,41 +63,132 @@
       #picture-right-1{
           background-image: url("img/Ads 2.png");
           background-color: #cad7df;
-          width: 80%;
-          height: 200px;
+          width: 71.45%;
+          height: 162.5px;
           margin-bottom: 30px;
           img{
-            width: 80%;
-            height: 200px;
+            width: 100%;
+            height: 162.5px;
             object-fit: none;
-            object-position: 100% 1;
+            object-position: 60% 30%;
           }
       }
       #info-1{
         position: absolute;
         .border-around{
           border: 1px solid @text-white-color;
-          width: 300px;
-          height: 128px;
+          width: 271px;
+          height: 110px;
           position: relative;
-          bottom: 202px;
-          left: 29px;
-          margin: 0 auto;
+          bottom: 166.5px;
+          left: 26px;
         }
         .banner-content{
           position: absolute;
-          top: 47px;
-          left: 45px;
+          top: 40px;
+          left: 32px;
         }
       }
       #picture-right-2{
         img{
-          width: 80%;
-          height: 256px;
-          scale: 2;
+          width: 71.45%;
+          height: 294px;
           object-fit: none;
-          object-position: 5% 5%;
+          object-position: 5% 10%;
         }
+      }
+      #info-2{
+        position: absolute;
+        bottom: 90px;
+        left: 30px;
+        .banner-button{
+          position: relative;
+          margin-top: 21px;
+        }
+      }
+    }
+  }
+}
+
+.featured-items{
+  margin-top: 80px;
+  margin-left:130.5px;
+  .featured-items-main{
+    margin-left: 15px;
+  }
+  .top-title{
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color: @main-color;
+    letter-spacing: 5px;
+  }
+  .main-title{
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    color: @stroke;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .line{
+    margin-top: 30px;
+    margin-bottom: 43px;
+    color: @main-color;
+    width: 4.35%;
+    margin-left: 0;
+    border: 0.5px solid @main-color;
+  }
+  .row{
+    .col-1, .col-2, .col-3, .col-4{
+      width: 19.87%;
+      margin-right: 30px;
+    }
+    img{
+      width: 100%;
+      height: 280px;
+    }
+    .item-button{
+      width: 118px;
+      height: 40px;
+      line-height: 42.5px;
+      background: @text-white-color;
+      text-align: center;
+      font-family: "Montserrat";
+      font-size: 16px;
+      cursor: pointer;
+      position: relative;
+      bottom: 52px;
+      left: 5px;
+    }
+    .item-button:hover{
+      color: @main-color;
+    }
+    .item-tilte{
+      position: relative;
+      bottom: 32px;
+    }
+    .item-star{
+      position: relative;
+      bottom: 27px;
+    }
+    .item-price{
+      position: relative;
+      bottom: 23px;
+      margin-bottom: 20px;
+      font-family: "Montserrat";
+      .old-price{
+        color: @banner-title;
+        text-decoration: line-through;
+        font-weight: normal;
+      }
+      .new-price{
+        color: @main-color;
+        font-weight: 900;
+        -webkit-text-stroke: 0.5px;
       }
     }
   }
