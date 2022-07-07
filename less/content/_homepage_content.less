@@ -1,39 +1,105 @@
+.page-main{
+    margin: 0; 
+    padding: 0; 
+  }
+
 .banner {
+  position: relative;
+  margin-top: 31px;
+  margin-left: 98px;
   .banner-button {
     font-family: "Montserrat";
     font-size: 14px;
     font-weight: 400;
+    background-color: @main-color;
+    width: 106px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: @text-white-color;
   }
   &-left {
-    .col(58.3333%);
+    .col(58.333%);
     position: relative;
     .banner-title {
       font-family: "Pacifico";
       font-size: 30px;
-      font-weight: 400;
+      font-weight: 600;
+    }
+    .banner-info{
+      position: absolute;
+      top: 46%;
+      left: 43%;
+      .banner-button{
+        position: absolute;
+        left: 66%;
+      }
     }
     img {
       width: 100%;
     }
   }
   &-right {
-    .col(41.6667%);
+    .col(41.667%);
     &-item {
       position: relative;
       .banner-title {
         font-family: "Montserrat";
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 500;
         color: @banner-title;
+        text-transform: uppercase;
       }
       .banner-discription {
         font-family: "Montserrat";
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 900;
+        -webkit-text-stroke: 1.5px @stroke;
+        text-transform: uppercase;
       }
       img {
         width: 100%;
       }
+      #picture-right-1{
+          background-image: url("img/Ads 2.png");
+          background-color: #cad7df;
+          width: 80%;
+          height: 200px;
+          margin-bottom: 30px;
+          img{
+            width: 80%;
+            height: 200px;
+            object-fit: none;
+            object-position: 100% 1;
+          }
+      }
+      #info-1{
+        position: absolute;
+        .border-around{
+          border: 1px solid @text-white-color;
+          width: 300px;
+          height: 128px;
+          position: relative;
+          bottom: 202px;
+          left: 29px;
+          margin: 0 auto;
+        }
+        .banner-content{
+          position: absolute;
+          top: 47px;
+          left: 45px;
+        }
+      }
+      #picture-right-2{
+        img{
+          width: 80%;
+          height: 256px;
+          scale: 2;
+          object-fit: none;
+          object-position: 5% 5%;
+        }
+      }
     }
   }
 }
+
